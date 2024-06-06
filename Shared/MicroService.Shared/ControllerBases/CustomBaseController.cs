@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MicroService.Shared.Response;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MicroService.Shared.ControllerBases

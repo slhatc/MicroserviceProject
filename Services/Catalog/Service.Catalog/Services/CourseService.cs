@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using MicroService.Shared;
+using MicroService.Shared.Response;
 using MongoDB.Driver;
 using Service.Catalog.Dtos;
 using Service.Catalog.Models;

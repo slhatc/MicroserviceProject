@@ -4,7 +4,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace MicroService.Shared
+namespace MicroService.Shared.Response
 {
     public class Response<T>
     {
@@ -22,7 +22,7 @@ namespace MicroService.Shared
         }
         public static Response<T> Success(int statusCode)
         {
-            return new Response<T> { Data = default(T), StatusCode = statusCode, IsSuccessful = true };
+            return new Response<T> { Data = default, StatusCode = statusCode, IsSuccessful = true };
 
         }
         public static Response<T> Fail(List<string> errors, int statusCode)

@@ -1,4 +1,4 @@
-﻿using MicroService.Shared;
+﻿using MicroService.Shared.Response;
 using Service.Catalog.Dtos;
 
 namespace Service.Catalog.Services
